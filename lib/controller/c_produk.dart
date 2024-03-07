@@ -11,14 +11,14 @@ class Produk extends GetxController {
     try {
       QuerySnapshot querySnapshot = await produkCollection.get();
 
-      querySnapshot.docs.forEach((doc) {
+      for (var doc in querySnapshot.docs) {
         ProdukModel produk = ProdukModel(
           image: doc['image'],
           name: doc['nama_produk'],
           status: doc['status'],
         );
         produkList.add(produk);
-      });
+      }
     } catch (e) {
       print('Error: $e');
     }
