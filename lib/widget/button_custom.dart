@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:motion_week7/config/appcolor.dart';
+import 'package:motion_week7/config/app_color.dart';
 
 class ButtonCustom extends StatelessWidget {
   const ButtonCustom({
