@@ -12,7 +12,7 @@ class ProductPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color(0xFFF3FAF3),
       body: SafeArea(
         child: Column(
           children: [

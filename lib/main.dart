@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:motion_week7/pages/kiriman_permintaan_page.dart';
 import 'package:motion_week7/pages/navbar.dart';
 import 'package:motion_week7/pages/profile_page.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: Navbar(),
+      home: KirimanPermintaanPage(),
     );
   }
 }
